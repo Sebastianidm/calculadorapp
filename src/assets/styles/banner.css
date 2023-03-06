@@ -1,0 +1,37 @@
+.containerBanner {
+    background-color: hsl(222, 26%, 31%); 
+    height: 50%;
+    max-height: 50%;
+    width:50%;
+    margin-bottom: 40px;
+    margin-top: 10%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left:  10px;
+    padding-right: 10px;
+    position: static;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .containerBanner {
+        background-color:  hsl(222, 26%, 31%); 
+        height: 50%;
+        max-height: 50%;
+        width:90%;
+        margin-bottom: 40px;
+        margin-top: 100px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding-left:  10px;
+        padding-right: 10px;
+        position: static;
+    }
+
+}
